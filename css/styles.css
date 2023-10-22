@@ -49,12 +49,17 @@
   letter-spacing: 0.54px;
 }
 
+.logo {
+  margin-right: 76px;
+}
+
 .nav-header {
-  color: var(--navy-blue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  display: flex;
+  align-items: center;
 }
 
 .contact {
@@ -62,6 +67,10 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.list-ul {
+  color: var(--navy-blue);
 }
 
 .main-title {
@@ -126,7 +135,7 @@
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .our-team-background {
@@ -242,42 +251,28 @@
 
 .ul-header {
   display: flex;
-}
-
-.all-header {
-  display: flex;
-
-  align-items: center;
+  column-gap: 40px;
+  margin-right: 332px;
 }
 
 .border-header {
   border-bottom: 1px solid var(--cornflower);
-  padding: 24px 0px 24px 0px;
 }
 
+.all-header {
+  display: flex;
+  padding: 24px 0 24px;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
 }
 
-.studio {
-  margin-right: 40px;
-  margin-left: 76px;
-}
-
-.contacts {
-  margin-left: 40px;
-  margin-right: 332px;
-}
-
-.mail {
-  margin-right: 40px;
-}
-
-.address {
-  justify-content: flex-end;
+.header-address {
   display: flex;
+  justify-items: flex-end;
+  gap: 40px;
 }
 
 .background-title {
