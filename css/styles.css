@@ -246,7 +246,7 @@
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .ul-header {
@@ -257,11 +257,11 @@
 
 .border-header {
   border-bottom: 1px solid var(--cornflower);
+  padding: 24px 0 24px;
 }
 
 .all-header {
   display: flex;
-  padding: 24px 0 24px;
 }
 ul {
   list-style-type: none;
@@ -269,9 +269,13 @@ ul {
   padding-left: 0;
 }
 
+address {
+  font-style: normal;
+}
+
 .header-address {
   display: flex;
-  justify-items: flex-end;
+
   gap: 40px;
 }
 
