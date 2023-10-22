@@ -81,6 +81,7 @@
   letter-spacing: 1.12px;
   max-width: 496px;
   margin-bottom: 48px;
+  margin-left: 316px;
 }
 
 .main-button {
@@ -97,6 +98,7 @@
   display: block;
   min-width: 169px;
   height: 56px;
+  margin-left: 480px;
 }
 
 .main-button:hover {
@@ -118,7 +120,8 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  padding-top: 120px;
+  margin-bottom: 8px;
+
 }
 
 .text-under-third-headline {
@@ -126,7 +129,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-top: 8px;
+  
   width: 264px;
 }
 
@@ -367,6 +370,10 @@ img {
 
 .item {
   flex-basis: calc((100% - 48px) / 3);
+}
+
+.item-main-page {
+width: calc((100% - 72px) / 4;
 }
 
 .border-list-item {
