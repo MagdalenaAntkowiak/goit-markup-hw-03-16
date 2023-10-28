@@ -191,13 +191,13 @@
   line-height: 1.5;
   letter-spacing: 0.32px;
   width: 264px;
-  margin-top: 17.5px;
 }
 
 .all-footer {
   display: flex;
   justify-content: center;
   display: block;
+  margin-bottom: 16px;
 }
 
 .background-footer {
@@ -380,6 +380,8 @@ img {
 .border-list-item {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-top: 0px;
+}
 
+.name-and-position {
   padding: 32px 16px 32px 16px;
 }
