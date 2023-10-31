@@ -168,7 +168,7 @@
 .all-footer {
   display: flex;
   justify-content: center;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
   color: var(--cloud);
   font-family: Raleway;
