@@ -15,16 +15,10 @@
 
 .link:hover {
   color: var(--ocean);
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 20px;
 }
 
 .link:focus {
   color: var(--ocean);
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 20px;
 }
 
 .link {
@@ -33,23 +27,15 @@
 
 .logo-web {
   color: var(--iris);
-  font-family: "Raleway";
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
 }
 
-.logo-studio {
+.logo {
   color: var(--navy-blue);
   font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
-}
-
-.logo {
   margin-right: 76px;
 }
 
@@ -80,8 +66,8 @@
   line-height: 1.07;
   letter-spacing: 1.12px;
   max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
-  margin-left: 316px;
 }
 
 .main-button {
@@ -98,7 +84,7 @@
   display: block;
   min-width: 169px;
   height: 56px;
-  margin-left: 480px;
+  margin: 0 auto;
 }
 
 .main-button:hover {
@@ -169,20 +155,6 @@
 
 .logo-web-footer {
   color: var(--iris);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-}
-
-.logo-studio-footer {
-  color: var(--cloud);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
 }
 
 .text-footer {
@@ -198,6 +170,12 @@
   justify-content: center;
   display: block;
   margin-bottom: 16px;
+  color: var(--cloud);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
 }
 
 .background-footer {
@@ -389,7 +367,7 @@ img {
 }
 
 .name-and-position {
-  padding: 32px 16px 32px 16px;
+  padding: 32px 0;
 }
 
 .portfolio-link {
