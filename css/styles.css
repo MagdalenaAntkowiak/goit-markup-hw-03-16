@@ -37,6 +37,7 @@
   line-height: 1.17;
   letter-spacing: 0.54px;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .nav-header {
@@ -57,6 +58,8 @@
 
 .list-ul {
   color: var(--navy-blue);
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .main-title {
@@ -241,13 +244,12 @@
 
 .ul-header {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   margin-right: 332px;
 }
 
 .border-header {
   border-bottom: 1px solid var(--cornflower);
-  padding: 24px 0 24px;
 }
 
 .all-header {
@@ -261,6 +263,7 @@ ul {
 
 address {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .header-address {
